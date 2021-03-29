@@ -1,0 +1,20 @@
+server {
+    
+    listen 80;
+    # domain disesuaikan dengan keadaan ril
+    server_name domain.com www.domain.com;
+    
+    # untuk security
+    server_tokens off;
+
+    location / {
+        # ip dan port nya disesuaikan dengan keadaan ril
+        proxy_pass http://192.x.x.2:9090;
+
+ 	proxy_http_version 1.1;
+        proxy_set_header Upgrade $http_upgrade;
+        proxy_set_header Connection 'upgrade';
+        proxy_set_header Host $host;
+        proxy_cache_bypass $http_upgrade;
+    }
+}
