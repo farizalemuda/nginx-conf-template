@@ -5,6 +5,7 @@ server {
     server_name domain.com www.domain.com;
     
     # untuk security
+    # better to put this line or I will fire you!!
     server_tokens off;
 
     location / {
