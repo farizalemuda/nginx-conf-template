@@ -29,23 +29,13 @@ Load balancer configuration will distribute the load among several servers. You 
 
 1. Determine which configuration you need.
 2. Download the particular configuration you need either load balancer, proxy pass, static content, etc.
-3. Move the file to /etc/nginx/sites-available
+3. Move the file to /etc/nginx/sites-available.
+
 ```
 sudo cp the-config-file /etc/nginx/sites-available/the-config-file
 ```
-Say what the step will be
 
-```
-sudo apt install nginx
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
+4. Fit the config file with your real scenario.
 
 ## Running the tests
 
@@ -56,8 +46,10 @@ Explain how to run the automated tests for this system
 Explain what these tests test and why
 
 ```
-Give an example
+sudo nginx -t
 ```
+
+If the response is OK then you go to deployment. If the response is error, please fix the configuration file. Check the configuration with your real scenario.
 
 ### And coding style tests
 
@@ -70,6 +62,11 @@ Give an example
 ## Deployment
 
 Add additional notes about how to deploy this on a live system
+
+
+```
+sudo nginx -s reload
+```
 
 ## Built With
 
