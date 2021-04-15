@@ -18,12 +18,12 @@ sudo apt install nginx
 #### Static HTML Content
 This configuration makes the nginx to serve the static content of HTML.
 
-![alt text](https://www.nginx.com/wp-content/uploads/2018/04/NGINX-Unit-WordPress-2-schemes.png "Static content configuration")
+![alt text](https://www.nginx.com/wp-content/uploads/2018/04/NGINX-Unit-WordPress-2-schemes.png =400x "Static content configuration")
 
 #### Load Balancer 
 Load balancer configuration will distribute the load among several servers. You can determinte the load distribution for each server.
 
-![alt text](https://miro.medium.com/max/964/1*wsxdxOWkR7arPfNQNnHxzw.png "Load Balancer Configuration")
+![alt text](https://miro.medium.com/max/964/1*wsxdxOWkR7arPfNQNnHxzw.png =400x "Load Balancer Configuration")
 
 ### Installing
 
