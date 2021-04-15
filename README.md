@@ -36,14 +36,13 @@ sudo cp the-config-file /etc/nginx/sites-available/the-config-file
 ```
 
 4. Fit the config file with your real scenario.
+5. Create a symlink to /sites-enabled
 
+```
+sudo ls -n /etc/nginx/sites-available/the-config-file /etc/nginx/sites-enabled/
+```
 ## Running the tests
 
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
 
 ```
 sudo nginx -t
@@ -67,7 +66,7 @@ Add additional notes about how to deploy this on a live system
 ```
 sudo nginx -s reload
 ```
-
+<!---
 ## Built With
 
 * [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
@@ -81,7 +80,7 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 ## Versioning
 
 We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
+!-->
 ## Authors
 
 * **Fariz Alemuda** - *Initial work* - [PurpleBooth](https://github.com/farizalemuda)
