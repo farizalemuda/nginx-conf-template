@@ -31,25 +31,26 @@ Load balancer configuration will distribute the load among several servers. You 
 2. Download the particular configuration you need either load balancer, proxy pass, static content, etc.
 3. Move the file to /etc/nginx/sites-available.
 
-```bash
+```sh
 sudo cp the-config-file /etc/nginx/sites-available/the-config-file
 ```
 
 4. Fit the config file with your real scenario.
 5. Create a symlink to /sites-enabled
 
-```bash
+```sh
 sudo ls -n /etc/nginx/sites-available/the-config-file /etc/nginx/sites-enabled/
 ```
 ## Running the tests
 
 
-```bash
+```sh
 sudo nginx -t
 ```
 
 If the response is OK then you go to deployment. If the response is error, please fix the configuration file. Check the configuration with your real scenario.
 
+<!--
 ### And coding style tests
 
 Explain what these tests test and why
@@ -57,11 +58,12 @@ Explain what these tests test and why
 ```
 Give an example
 ```
+!-->
 
 ## Deployment
-
+<!---
 Add additional notes about how to deploy this on a live system
-
+!--->
 
 ```
 sudo nginx -s reload
