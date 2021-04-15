@@ -31,20 +31,20 @@ Load balancer configuration will distribute the load among several servers. You 
 2. Download the particular configuration you need either load balancer, proxy pass, static content, etc.
 3. Move the file to /etc/nginx/sites-available.
 
-```sh
+```bash
 sudo cp the-config-file /etc/nginx/sites-available/the-config-file
 ```
 
 4. Fit the config file with your real scenario.
 5. Create a symlink to /sites-enabled
 
-```sh
+```bash
 sudo ls -n /etc/nginx/sites-available/the-config-file /etc/nginx/sites-enabled/
 ```
 ## Running the tests
 
 
-```sh
+```bash
 sudo nginx -t
 ```
 
