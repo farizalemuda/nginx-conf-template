@@ -85,7 +85,7 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 !-->
 ## Authors
 
-* **Fariz Alemuda** - *Initial work* - [PurpleBooth](https://github.com/farizalemuda)
+* **Fariz Alemuda** (https://github.com/farizalemuda) - *Initial work* 
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
