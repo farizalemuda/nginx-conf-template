@@ -1,0 +1,18 @@
+server {
+    # serving the service on port 80
+    listen 80;
+
+    # bind the incoming traffic to only specific domain
+    # help to maintain virtual host
+    # or multi domain in same machine
+    server_name domain.com www.domain.com;
+
+    location / {
+        # path folder of your repository
+        root /var/www/html/landing-page;
+    
+        # default landing file 
+        # mostly with this configuration
+        index index.html;
+    }   
+}
