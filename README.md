@@ -39,7 +39,7 @@ sudo cp the-config-file /etc/nginx/sites-available/the-config-file
 5. Create a symlink to /sites-enabled
 
 ```sh
-sudo ls -n /etc/nginx/sites-available/the-config-file /etc/nginx/sites-enabled/
+sudo ln -s /etc/nginx/sites-available/the-config-file /etc/nginx/sites-enabled/
 ```
 ## Running the tests
 
