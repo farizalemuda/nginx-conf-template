@@ -20,6 +20,10 @@ This configuration makes the nginx to serve the static content of HTML.
 
 ![alt text](https://www.nginx.com/wp-content/uploads/2018/04/NGINX-Unit-WordPress-2-schemes.png "Static content configuration")
 
+#### Reverse Proxy
+
+![alt text](https://www.keycdn.com/img/support/nginx-reverse-proxy.png  "Reverse Proxy Configuration")
+
 #### Load Balancer 
 Load balancer configuration will distribute the load among several servers. You can determinte the load distribution for each server.
 
