@@ -85,9 +85,11 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 !-->
 ## Authors
 
-* [**Fariz Alemuda**](https://github.com/farizalemuda) - *Initial work* 
+* [**Fariz Alemuda**](https://github.com/farizalemuda) 
 
-See also the list of [contributors](https://github.com/ale/template-nginx-conf/contributors) who participated in this project.
+<!--See also the list of [contributors](https://github.com/ale/template-nginx-confcontributors) who participated in this project. 
+
+---!>
 <!--
 ## License
 
